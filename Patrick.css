@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 0px;
+    
+}
+
+@font-face {
+    font-family: 'navitismbold';
+    src: url("Navitism-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'navitismlight';
+    src: url("Navitism-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'navitismmedium';
+    src: url("Navitism-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'navitismregular';
+    src: url("Navitism-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h2 {
+    font-family: 'navitismlight';
+}
+
+h3 {
+    font-family: 'navitismmedium';
+}
+
+h4 {
+    font-family: 'navitismlight';
+}
+
+p {
+    font-family: 'navitismregular';
+}
+
+
+main {
+    
+    text-align: center;
+    margin-top: 30px;
+    margin: 0;
+}
+
+header {
+    background-color: #5B88B2;
+    color:#FFFFFF;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    font-family: 'navitism';
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'navitismbold';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.buttonheader {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'navitismbold';
+    
+}
+
+.buttoncontainer {
+    background-color: #5B88B2;
+    border: solid #5B88B2;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #122C4F;
+    color: #FBF9E4;
+    border:solid #122C4F;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 10px;
+    font-family: 'navitismbold';
+}
+
+
+.img1 {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    width: 60%;
+    padding-top: 0px;
+    margin-top: 0%;
+
+}
+
+.empreendimentos-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow:  2px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    line-height: 30px;
+    
+    
+}
+
+.sobrenos {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #5B88B2;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2), 
+    0px 5px 10px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    margin-top: 80px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#nomepatrick {
+    font-size: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#profissao {
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+
+#frasedestaque {
+    margin-bottom: 40px;
+}
+
+#creci {
+    margin-bottom: 50px;
+}
+
+.buttonsobrenos {
+    margin-bottom: 40px;
+}
+footer {
+    background-color: #122C4F;
+    color:#FBF9E4;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.redessociais {
+    width: 40px;
+}
