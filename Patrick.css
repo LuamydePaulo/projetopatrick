@@ -107,7 +107,7 @@ h1 {
 
 button {
     background-color: #122C4F;
-    color: #FBF9E4;
+    color: #FFFFFF;
     border:solid #122C4F;
     border-radius: 7px;
     cursor: pointer;
@@ -192,12 +192,53 @@ button {
 .buttonsobrenos {
     margin-bottom: 40px;
 }
+
+.depoimento-1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'navitismregular';
+}
+
+.depoimento-2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'navitismregular';
+}
+
+.depoimento-3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'navitismregular';
+}
+
+span {
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+
+.span1 {
+    padding-right: 10px;
+}
+.span2 {
+    padding-left: 10px;  
+}
+
+
 footer {
     background-color: #122C4F;
-    color:#FBF9E4;
+    color: #ffffff;
     margin-top: 80px;
     padding: 20px;
     text-align: center;
+    padding-bottom: 5px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .redes-sociais {
@@ -209,4 +250,11 @@ footer {
 
 .redessociais {
     width: 40px;
+}
+
+.direitos {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
 }
